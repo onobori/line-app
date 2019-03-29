@@ -11,6 +11,7 @@ function debug($title, $text) {
 
 // (2) リプライとプッシュの共通通知
 function post($url, $object) {
+
 	// (3) JSON形式への変換
 	$json=json_encode($object);
 	debug('output', $json);
